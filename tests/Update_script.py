@@ -2,7 +2,7 @@ import requests
 
 person_id = 1  # Replace with an existing person ID
 
-url = f'https://your-api-url.com/api/{person_id}'
+url = f'http://maryagiamah.pythonanywhere.com/api/{person_id}'
 
 data = {'name': 'Jane Doe'}
 
