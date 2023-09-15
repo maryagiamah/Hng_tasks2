@@ -96,8 +96,8 @@ To set up and deploy your API, follow these steps:
 
 2. **Deployment on PythonAnywhere**:
    - Log in to PythonAnywhere and open a Bash console.
-   - Clone your repository with `git clone https://github.com/yourusername/your-repo.git`.
+   - Clone your repository with `git clone `https://github.com/maryagiamah/Hng_tasks2`.
    - Create a virtual environment (optional) and install dependencies.
    - Update the database URI.
    - Run the application.
-   - Access your API at `https://yourusername.pythonanywhere.com/api`.
+   - Access your API at `http://maryagiamah.pythonanywhere.com/api`.
