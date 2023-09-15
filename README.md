@@ -7,10 +7,8 @@
     - [Retrieve a Person](#retrieve-a-person)
     - [Update a Person](#update-a-person)
     - [Delete a Person](#delete-a-person)
-3. [Sample Usage](#sample-usage)
-4. [Request and Response Formats](#request-and-response-formats)
-5. [Known Limitations and Assumptions](#known-limitations-and-assumptions)
-6. [Setting Up and Deploying](#setting-up-and-deploying)
+3. [Known Limitations and Assumptions](#known-limitations-and-assumptions)
+4. [Setting Up and Deploying](#setting-up-and-deploying)
 
 ## Introduction
 This API provides CRUD operations for managing information about people. It allows you to create, retrieve, update, and delete records for individuals.
@@ -78,12 +76,6 @@ This API provides CRUD operations for managing information about people. It allo
     ```
 - **Possible Errors**:
     - 404 Not Found: If person with given ID doesn't exist.
-
-## Sample Usage
-Provide examples of how to make requests to your API using tools like cURL or Postman.
-
-## Request and Response Formats
-Explain the expected format of requests and the structure of responses.
 
 ## Known Limitations and Assumptions
 - **Limitations**:
