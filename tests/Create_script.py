@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://your-api-url.com/api'
+url = 'http://maryagiamah.pythonanywhere.com/api'
 
 data = {'name': 'John Doe'}
 
