@@ -16,7 +16,7 @@ This API provides CRUD operations for managing information about people. It allo
 ## Endpoints
 
 ### Create a Person
-- **Endpoint**: `POST /api`
+- **Endpoint**: `POST /http://maryagiamah.pythonanywhere.com/api`
 - **Description**: Add a new person.
 - **Request Format**:
     ```json
@@ -35,7 +35,7 @@ This API provides CRUD operations for managing information about people. It allo
     - 400 Bad Request: If `name` is missing in the request body.
   
 ### Retrieve a Person
-- **Endpoint**: `GET /api/<person_id>`
+- **Endpoint**: `GET http://maryagiamah.pythonanywhere.com/api/<person_id>`
 - **Description**: Fetch details of a person.
 - **Response Format**:
     ```json
@@ -48,7 +48,7 @@ This API provides CRUD operations for managing information about people. It allo
     - 404 Not Found: If person with given ID doesn't exist.
 
 ### Update a Person
-- **Endpoint**: `PUT /api/<person_id>`
+- **Endpoint**: `PUT http://maryagiamah.pythonanywhere.com/api/<person_id>`
 - **Description**: Modify details of an existing person.
 - **Request Format**:
     ```json
@@ -66,7 +66,7 @@ This API provides CRUD operations for managing information about people. It allo
     - 404 Not Found: If person with given ID doesn't exist.
 
 ### Delete a Person
-- **Endpoint**: `DELETE /api/<person_id>`
+- **Endpoint**: `DELETE http://maryagiamah.pythonanywhere.com/api/<person_id>`
 - **Description**: Remove a person.
 - **Response Format**:
     ```json
